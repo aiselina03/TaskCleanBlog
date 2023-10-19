@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+  color: white;
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header p {
+  font-size: 20px;
+}
+header .start {
+  font-size: 30px;
+  font-weight: bold;
+}
+header .nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+header .header-text {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .header-text .blog {
+  font-size: 70px;
+  font-weight: 30px;
+}
+
+.sec1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 120vh;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.sec1 .texts {
+  height: 100vh;
+  text-align: start;
+}
+.sec1 .texts .text {
+  width: 100%;
+  height: 23vh;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(208, 207, 207);
+  margin: 15px;
+}
+.sec1 .texts .text h2 {
+  font-size: 35px;
+}
+.sec1 .texts .text .p1 {
+  font-size: 25px;
+}
+.sec1 .texts .text .p2 {
+  font-size: 20px;
+  color: #6c757d;
+  font-style: italic;
+}
+.sec1 .texts .text .p2 span {
+  color: black;
+}
+.sec1 .texts .text .p2 span:hover {
+  color: #0085a1;
+}
+.sec1 .texts .text h2:hover,
+.sec1 .texts .text .p1:hover {
+  color: #0085a1;
+}
+.sec1 button {
+  background-color: #0085a1;
+  color: white;
+  padding: 20px 30px;
+  border: transparent;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.sec1 button:hover {
+  background-color: #014c5b;
+}
+
+footer {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .fa-brands {
+  font-size: 45px;
+  cursor: pointer;
+}
+footer .fa-brands:hover {
+  color: #0085a1;
+}
+footer small {
+  font-size: 20px;
+  margin: 20px;
+  color: gray;
+  font-style: italic;
+}/*# sourceMappingURL=main.css.map */
